@@ -1,22 +1,25 @@
-
-import React, { Component } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import React from 'react';
+import {
+  Routes,
+  Route,
+  Navigate
+} from 'react-router-dom';
 import Dogs from './components/Dogs';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Switch>
-          {/* Render the Dogs component for all the dogs */}
-          <Route exact path="/dogs" component={Dogs} />
+function App() {
+  return (
+    <div className="App">
+      <h1>Helloz. We have dogz. Click on them for more info.</h1>
+      <Routes>
+        {/* Render the Dogs component for all the dogs */}
+        <Route path="dogs" element={<Dogs />}>
           {/* Render the Dogs component for a specific dog */}
-          <Route exact path="/dogs/:name" component={Dogs} />
-          <Redirect to="/dogs" />
-        </Switch>
-      </div>
-    );
-  }
+          <Route path=":name" element={<Dogs />}/>
+        </Route>
+        <Route path="*" element={<Navigate replace to="/dogs" />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;
