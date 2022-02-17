@@ -1,13 +1,7 @@
+import reactDOM from "react-dom"
+import { BrowserRouter } from 'react-router-dom'
+import App from "./components/App.jsx"
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import './main.scss'
 
-
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+reactDOM.render(<BrowserRouter><App/></BrowserRouter>,document.getElementById("root"))
