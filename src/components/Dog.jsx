@@ -1,6 +1,10 @@
 export default function Dog({ dogs, currentDog }) {
     const dog = dogs.find(x => x.name === currentDog)
 
+    if (!dog) {
+      return <p>Dog {currentDog} not found</p>
+    }
+
     return (
       <div className="Dog">
         <img src={dog.image} alt="dog" />
