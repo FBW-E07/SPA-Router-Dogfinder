@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.956cf20a.css",
-    "main.js": "/static/js/main.db470d63.js",
-    "static/media/hazel.jpg": "/static/media/hazel.56f12732a1234fceb49b.jpg",
-    "static/media/whiskey.jpg": "/static/media/whiskey.7650f3f2b68e4bebacaa.jpg",
-    "static/media/tubby.jpg": "/static/media/tubby.9c06bf82b050f49b0a43.jpg",
-    "index.html": "/index.html",
-    "main.956cf20a.css.map": "/static/css/main.956cf20a.css.map",
-    "main.db470d63.js.map": "/static/js/main.db470d63.js.map"
+    "main.css": "/SPA-Router-Dogfinder/static/css/main.956cf20a.css",
+    "main.js": "/SPA-Router-Dogfinder/static/js/main.ad0ea163.js",
+    "static/media/hazel.jpg": "/SPA-Router-Dogfinder/static/media/hazel.56f12732a1234fceb49b.jpg",
+    "static/media/whiskey.jpg": "/SPA-Router-Dogfinder/static/media/whiskey.7650f3f2b68e4bebacaa.jpg",
+    "static/media/tubby.jpg": "/SPA-Router-Dogfinder/static/media/tubby.9c06bf82b050f49b0a43.jpg",
+    "index.html": "/SPA-Router-Dogfinder/index.html",
+    "main.956cf20a.css.map": "/SPA-Router-Dogfinder/static/css/main.956cf20a.css.map",
+    "main.ad0ea163.js.map": "/SPA-Router-Dogfinder/static/js/main.ad0ea163.js.map"
   },
   "entrypoints": [
     "static/css/main.956cf20a.css",
-    "static/js/main.db470d63.js"
+    "static/js/main.ad0ea163.js"
   ]
 }
