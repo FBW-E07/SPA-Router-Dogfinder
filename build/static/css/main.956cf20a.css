@@ -1,0 +1,2 @@
+.App{margin:auto;max-width:900px;text-align:center}nav{display:flex;justify-content:space-around;margin:2em 0}nav a img{border:1em solid;border-radius:50%;display:block;opacity:.2;width:150px}nav a.active img,nav a.force-full-opacity img{opacity:1}.Dog img{width:200px}
+/*# sourceMappingURL=main.956cf20a.css.map*/

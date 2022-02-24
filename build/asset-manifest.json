@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.956cf20a.css",
+    "main.js": "/static/js/main.db470d63.js",
+    "static/media/hazel.jpg": "/static/media/hazel.56f12732a1234fceb49b.jpg",
+    "static/media/whiskey.jpg": "/static/media/whiskey.7650f3f2b68e4bebacaa.jpg",
+    "static/media/tubby.jpg": "/static/media/tubby.9c06bf82b050f49b0a43.jpg",
+    "index.html": "/index.html",
+    "main.956cf20a.css.map": "/static/css/main.956cf20a.css.map",
+    "main.db470d63.js.map": "/static/js/main.db470d63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.956cf20a.css",
+    "static/js/main.db470d63.js"
+  ]
+}
